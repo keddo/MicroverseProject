@@ -1,7 +1,22 @@
-/* #dropdown {
-    margin: 10px;
-} */
+.form-container{
+    padding: 50px;
+    background: #bd2130;
+    color: white;
+    }
 
-#survey-form{
-	background: #333;
-}
+    .container {
+        /* background: #28a745; */
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .btn-success{
+    	background-color: #117a8b;
+    	border: 1px #117a8b solid;
+    }
+    .btn-success:hover{
+    	background-color: #333;
+    	border: 1px #333 solid;
+    }
