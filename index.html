@@ -32,23 +32,32 @@
         <label id="number-label">Age:</label>
         <input type="number" class="form-control" name="number-label"  min="0" max="90" id="number" placeholder="Age">
         </div>
-        <div class="form-control">
+        <div class="form-group">
           <label id="number-label" for="dropdown">Which option best describes your current role?</label>
-        <select id="dropdown">
+        <select id="dropdown" class="form-control">
+
           <option>Student</option>
           <option>Teacher</option>
           <option>Guest</option>
         </select>
         </div>
-        <div class="form-control">
-          <label id="number-label" for="dropdown">Would you recommend freeCodeCamp to a friend?</label>
         <div>
-          <label><input type="radio" class="form-control" name="gender" value="male"> Male</label><br>
-          <label><input type="radio" class="form-control" name="gender" value="female">Female</label><br>
-          <label><input type="radio" class="form-control" name="gender" value="other">Other</label>
+        <div class="form-check">
+          <label class="form-check-label" for="radio1">
+            <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked> Definitely
+          </label>
         </div>
+        <div class="form-check">
+          <label class="form-check-label" for="radio2">
+            <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> Maybe
+          </label>
         </div>
-      
+        <div class="form-check">
+          <label class="form-check-label">
+            <input type="radio" class="form-check-input"> Not sure
+          </label>
+        </div>
+      </div>
         <div>
         <label id="number-label" for="dropdown">What is your favorite feature of freeCodeCamp??</label>
       </div>
@@ -57,26 +66,45 @@
           <option>Challenges</option>
           <option>Projects</option>
           <option>Open Source</option>
-        </div>
         </select>
+      </div>
+        <div >
+          <div class="form-check">
+            <label class="form-check-label" for="radio1">
+              <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1" checked> Front-end Projects
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label" for="radio2">
+              <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2">Back-end Projects
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input"> Data Visualization
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input"> Challenges
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="form-check-label">
+              <input type="radio" class="form-check-input"> City Meetups
+            </label>
+          </div>
+        </div >
+        <div class="form-group">
+          <label>Any comments or suggestions?</label>
+         
+          <textarea rows="4" cols="50" placeholder="Enter your comments here...." class="form-control">
+ 
+          </textarea>
+          </div>
           <div>
-         <label id="number-label" for="dropdown">Would you recommend freeCodeCamp to a friend?</label>
-        </div>
-        <div>
-          <label><input type="checkbox" name="gender" value="male"> Front-end Projects</label><br>
-          <label><input type="checkbox" name="gender" value="female">Back-end Projects</label><br>
-          <label><input type="checkbox"  name="gender" value="other">Data Visualization</label><br>
-          <label><input type="checkbox"  name="gender" value="other">Challenges</label><br>
-          <label><input type="checkbox"  name="gender" value="other">City Meetups</label><br>
-        </div>
        </form> 
-       <div>
-         <label>Any comments or suggestions?</label>
-        </div>
-         <textarea rows="4" cols="50" placeholder="Enter your comments here....">
-
-         </textarea>
-         <div>
+       
       <button type="submit">Submit</button>
     </div>
       </div>
