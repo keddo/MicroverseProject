@@ -1,3 +1,13 @@
-/* #dropdown {
-    margin: 10px;
-} */
+ .form-container{
+    padding: 50px;
+    background: #bd2130;
+    color: white;
+    }
+
+    .container {
+        /* background: #28a745; */
+    }
+
+    header {
+        text-align: center;
+    }
